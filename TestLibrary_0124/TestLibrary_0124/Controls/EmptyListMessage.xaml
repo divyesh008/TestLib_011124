@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestLibrary_0124.Controls.EmptyListMessage">
+   <VerticalStackLayout VerticalOptions="Fill" HorizontalOptions="Fill" Padding="{OnPlatform Android=0, iOS=10}">
+        <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center">
+            <Image Source="no_records" Aspect="AspectFit"/>
+            <Label Text="No records were found."
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold" />
+        </VerticalStackLayout>
+    </VerticalStackLayout>
+</ContentView>
+
